@@ -18,10 +18,42 @@
     <![endif]-->
   </head>
   <body>
-   <div class="container">
+  <div class="container">
+      <div class="row">
+         <h1>Название сайта</h1>
+          <div class="navbar navbar-inverse">
+              <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        <span class="sr-only">Октрыть навигацию</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                     <!-- <a href="#" class="navbar-brand">Название компании</a> -->
+                  </div>
+                  <div class="collapse navbar-collapse" id="responsive-menu">
+                      <ul class="nav navbar-nav">
+                          <li><a href="#">Пункт 1</a></li>
+                          <li><a href="#">Пункт 2</a></li>
+                          <li><a href="#">Пункт 3</a></li>
+                          <li><a href="#">Пункт 4</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+   <div class="container-fluid">
        <div class="row">
-           <div class="col-lg-8 col-md-8 col-sm-6 col-xs-4"></div>
-           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8"></div>
+           <div class="col-md-6">
+               <div class="row">
+                   <div class="col-md-4"></div>
+                   <div class="col-md-4"></div>
+                   <div class="col-md-4"></div>
+               </div>
+           </div>
+           <div class="col-md-4 hidden-md visible-lg"></div>
        </div>
    </div>
 
